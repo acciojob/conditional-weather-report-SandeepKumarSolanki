@@ -5,9 +5,9 @@ const WeatherDisplay = ({weather}) => {
     return (
         <div>
         <p>
-            Temperature : <span style={{color : tempColor}}>{weather.temperature}</span>
+            Temperature: <span style={{color : tempColor}}>{weather.temperature}</span>
         </p>
-        <p>{weather.conditions}</p>
+        <p>Conditions: {weather.conditions}</p>
         </div>
     )
 }
